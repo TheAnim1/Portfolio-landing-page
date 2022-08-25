@@ -1,0 +1,684 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Section*/
+.navbar-border{
+    border: 1px solid #F1F1F1;
+    padding: 25px;
+
+}
+
+.mail-address{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    margin-left: 13px;
+    color: #222222 !important;
+}
+
+.nav-link{
+    font-family: 'Roboto', sans-serif;
+    margin-right: 58px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #222222 !important;
+}
+
+/* Hero Section */
+
+.hero-section{
+    position: relative;
+}
+.hero-info{
+    padding-top: 80px;
+}
+
+.hero-intro{
+    font-family: 'Noticia Text', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    margin-top: 30px;
+    text-transform: capitalize;
+    color: #FF5733;
+}
+
+.hero-info>h2{
+    font-family: 'Noticia Text', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    color: #222222;
+}
+
+.hero-desc{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #888888;
+    margin-top: 30px;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.hero-btn{
+    border-radius: 50px;
+    border: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: #FF5733;
+    color: #F1F1F1;
+    padding: 13px 40px 13px 40px;
+}
+
+.circle-1::after{
+    background-image: url(/images/Rectangle\ 807.png);
+    position: absolute;
+    height: 279px;
+    left: 91.9vw;
+    top: 1.61vw;
+    content: "";
+    width: 7.23vw;
+    background-repeat: no-repeat;
+}
+
+.circle-2::after{
+    background-image: url(/images/Rectangle\ 815.png);
+    position: absolute;
+    height: 279px;
+    right: 20.78vw;
+    top: 8.69vw;
+    content: "";
+    width: 139px;
+    background-repeat: no-repeat;
+}
+
+.circle-3::after{
+    background-image: url(/images/Rectangle\ 813.png);
+    position: absolute;
+    height: 279px;
+    right: 11.97vw;
+    top: 22.39vw;
+    content: "";
+    width: 139px;
+    background-repeat: no-repeat;
+}
+.circle-4::after{
+    background-image: url(/images/Rectangle\ 808.png);
+    position: absolute;
+    height: 279px;
+    left: 17.96vw;
+    top:7.55vw;
+    content: "";
+    width: 139px;
+    background-repeat: no-repeat;
+}
+.circle-5::after{
+    background-image: url(/images/leftrect.png);
+    position: absolute;
+    height: 377px;
+    top: 20.26vw;
+    content: "";
+    width: 300px;
+    background-repeat: no-repeat;
+}
+.circle-6::after{
+    background-image: url(/images/Rectangle6.png);
+    position: absolute;
+    height: 38px;
+    left: 23.43vw;
+    top: 26.40vw;
+    content: "";
+    width: 38px;
+    background-repeat: no-repeat;
+}
+
+
+/* Brands Logo */
+
+.brands-logo{
+    margin-top: 100px;
+}
+
+.brands-logo::after{
+    background-image: url(/images/Rectangle\ 814.png);
+    position: absolute;
+    height: 38px;
+    right: 0px;
+    top: 839px;
+    content: "";
+    width: 17px;
+    background-repeat: no-repeat;
+}
+
+.brands-logo>img{
+    margin-right: 80px;
+}
+
+/* About Info */
+
+.about-info{
+    margin-top: 220px;
+}
+.about-info::after{
+    background-color: #F9F9F9;
+    position: absolute;
+    height: 365px;
+    right: 599px;
+    top: 1000px;
+    content: "";
+    width: 790px;
+    z-index: -4;
+    background-repeat: no-repeat;
+}
+.about-left{
+    font-family: 'Noticia Text', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 63px;
+    text-transform: capitalize;
+    color: #222222;
+}
+
+.about-right{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #888888;
+
+}
+
+/* Services Section */
+
+.service-header>h2{
+    font-family: 'Noticia Text', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    text-transform: capitalize;
+    color: #222222;
+    margin-top: 160px;
+
+}
+
+.service-header-underline{
+    transform: translateX(125px);
+}
+
+.card{
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 15px 55px rgba(0, 0, 0, 0.06);
+}
+
+.cards{
+    margin-top: 70px;
+}
+
+.cards::after{
+    background-color: #F9F9F9;
+    position: absolute;
+    height: 265px;
+    right: 254px;
+    top: 1848px;
+    content: "";
+    width: 1400px;
+    z-index: -4;
+    background-repeat: no-repeat;
+}
+
+.cards-img{
+    width: 150px;
+    margin-top: 30px;
+}
+
+.card-title{
+    font-family: 'Noticia Text', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #222222;
+    margin-top: 15px;
+}
+
+.card-text{
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #888888;
+}
+
+.details-link{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 15px;
+    color: #FF5733;
+    text-decoration: none;
+}
+
+/* Experience Section */
+
+.exp-section{
+    margin-top: 170px;
+}
+
+.exp-desc>h2{
+    font-family: 'Noticia Text', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 63px;
+    text-transform: capitalize;
+    color: #222222;
+}
+
+.exp-desc>img{
+    transform: translateX(150px);
+}
+
+.exp-desc>p{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #888888;
+    border-bottom: 1px solid #E2E2E2;
+    width: 80%;
+    padding-bottom: 30px;
+}
+
+.exp-duration-left{
+    background: #F9F9F9;
+    margin-right: 10px;
+}
+.exp-duration-right{
+    background: #F9F9F9;
+    margin-right: 10px;
+}
+.exp h2{
+    font-family: 'Noticia Text', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 63px;
+    color: #FF5733;
+}
+
+.exp p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #888888;
+}
+
+.designation{
+    font-family: 'Noticia Text', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #555555;
+
+}
+
+.job-exp{
+    margin-bottom: 45px;
+}
+.job-exp h3{
+    font-family: 'Noticia Text', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: capitalize;
+     color: #222222;
+     border-bottom: 1px solid #E2E2E2;
+     padding-bottom: 25px;
+    
+}
+
+.exp-timeline-location{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #777777;
+}
+
+
+
+
+
+
+
+/* Testimonial Slider */
+
+.testimonial-header{
+    margin: 150px 0px 60px 0px;
+}
+.testimonial-header img{
+    transform: translate(55px, 10px);
+}
+.testimonial-header>h2{
+    font-family: 'Noticia Text', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 63px;
+    color: #222222;
+}
+.slider{
+    display: block;
+    position: relative;
+    background: #F9F9F9;
+    padding: 65px;
+}
+
+
+
+.testimonial-text{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #888888;
+    background-image: url(images/quote.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding: 74px 0px 0px 74px;
+}
+.author-info{
+    margin-top: 40px;
+    padding: 0px 0px 0px 74px;
+}
+
+.author-info>img{
+    margin-right: 15px;
+}
+
+.autor-name{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #222222;
+}
+.author-designation{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #777777;
+}
+
+.slider-buttons{
+    transform: translate(76px, -5px);
+}
+
+.perv{
+    margin-right: 20px;
+}
+
+.slide-2{
+    display: none;
+}
+
+
+
+
+
+
+
+/*Project Section*/
+
+.project-header{
+    margin-top: 160px;
+}
+.project-header>h2{
+    font-family: 'Noticia Text', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #222222;
+}
+.projects{
+    margin-top: 50px;
+}
+.project-card{
+  
+    padding: 0;
+  
+    border-radius: 0px;
+}
+
+.cards-overlay-shadow{
+
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 8.73%, rgba(196, 196, 196, 0) 54.45%);
+  border-radius: 0px;
+}
+
+.project-title{
+    font-family: 'Noticia Text', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+}
+.project-subtitle{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+/* footer-section */
+
+.footer-section{
+    margin-top: 120px;
+}
+
+.footer-desc p:nth-child(1){
+    font-family: 'Noticia Text', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    color: #FF5733;
+}
+
+.footer-desc p:nth-child(2){
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #888888;
+    margin-top: 50px;
+}
+
+.footer-desc>h2{
+    font-family: 'Noticia Text', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #222222;
+}
+.contact-number{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #888888;
+    margin-top: 14px;
+}
+
+.social-infos a{
+    margin-right: 30px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #222222;
+    margin-top: 34px;
+}
+
+.copyright {
+    border-top: 1px solid #E7E7E7;
+    margin-top: 85px;
+}
+
+.copyright>p{
+    padding-top: 50px;
+    padding-bottom: 34px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    color: #888888;
+}
+
+
+
+
+
+
+
+
+
+/* Media Query */
+
+
+@media only screen and (max-width: 600px) {
+
+    /* Hero Section */
+   
+    .hero-info>h2{
+        font-size: 31px;
+        line-height: 50px;
+    }
+    .hero-desc{
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+
+    /* About Info Section */
+
+    .about-info{
+        margin-top: 120px;
+        background-color: #F9F9F9;
+    }
+    .about-info::after{
+       content: none;
+    }
+    .about-left{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .about-right{
+       
+        font-size: 12px;
+        line-height: 20px;
+
+    }
+    .service-header>h2{
+        margin-top: 50px;
+        font-size: 30px;
+    
+    }
+    .service-header-underline {
+        transform: translateX(15px);
+    }
+
+    /*Services Section*/
+    .cards::after{
+        
+        content: none;
+    }
+
+    /*Experience Section*/
+    .exp-desc>h2{
+        font-size: 35px;
+        line-height: 55px;
+    }
+    .exp-desc>img {
+        transform: translateX(40px);
+    }
+    .job-exp{
+        margin-top: 45px;
+    }
+    .exp-desc>p {
+        text-align: center;
+    }
+
+    /* Testimonial Section */
+    .testimonial-header>img{
+        transform: translate(0px, 0px);
+    }
+    .testimonial-text{
+        padding: 67px 0px 0px 0px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .author-info{
+        padding: 0px;
+    }
+    .slider-buttons {
+        transform: translate(0px, 0px); 
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+
+    /* Footer Section */
+
+    .footer-desc>h2{
+        font-size: 24px;
+    }
+
+  }
