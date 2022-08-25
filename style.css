@@ -452,9 +452,15 @@
     transform: translate(76px, -5px);
 }
 
-.perv{
+.prev{
     margin-right: 20px;
 }
+
+.prev-button,.next-button{
+    border: none;
+    border-radius: 50%;
+}
+
 
 .slide-2{
     display: none;
